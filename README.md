@@ -22,31 +22,11 @@
 
 ## 本地查看
 
-页面是纯静态 HTML，无需安装依赖或执行构建。克隆仓库后，任选一种方式查看。
+不需要安装 Git，也不需要懂命令行。按下面三步操作即可：
 
-### 方式一：直接打开文件
-
-在文件管理器中双击 `index.html`，或用浏览器打开它。也可以在终端中执行：
-
-```bash
-git clone https://github.com/xtcmoons/riseup-privacy.git
-cd riseup-privacy
-open index.html   # macOS
-# xdg-open index.html   # Linux
-# start index.html      # Windows
-```
-
-### 方式二：启动本地静态服务器
-
-这种方式更接近通过网址访问页面的效果：
-
-```bash
-git clone https://github.com/xtcmoons/riseup-privacy.git
-cd riseup-privacy
-python3 -m http.server 8000
-```
-
-然后在浏览器中打开 <http://localhost:8000/>（服务器会自动返回目录下的 `index.html`），按 `Ctrl+C` 停止。
+1. **下载文件**：打开仓库页面 <https://github.com/xtcmoons/riseup-privacy>，点击绿色的「Code」按钮，选择「Download ZIP」。
+2. **解压文件**：下载完成后解压 ZIP 文件，得到一个名为 `riseup-privacy-main` 的文件夹。
+3. **打开页面**：在文件夹里双击 `index.html`，浏览器就会显示隐私政策页面。
 
 ## 文件说明
 
